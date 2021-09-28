@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+}
+
+.item{
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.item:hover{
+    transform: scale(.8);
+}
+
+.item:active{
+    transform: scale(1.1);
+}
